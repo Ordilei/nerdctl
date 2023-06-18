@@ -1,0 +1,19 @@
+name: Nerdctl Action
+description: Ação personalizada para usar o nerdctl no GitHub Actions
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+inputs:
+  nerdctl:
+    description: 'O comando nerdctl a ser executado'
+    required: true
+
+outputs:
+  result:
+    description: 'Saída do comando nerdctl'
+
+branding:
+  icon: 'cpu'
+  color: 'purple'
