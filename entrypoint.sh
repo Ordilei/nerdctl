@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-sh -c "nerdctl $*"
+sh -c "sudo nerdctl $*"
