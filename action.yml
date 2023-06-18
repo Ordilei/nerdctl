@@ -6,7 +6,7 @@ runs:
   image: "Dockerfile"
 
 inputs:
-  nerdctl:
+  command:
     description: 'O comando nerdctl a ser executado'
     required: true
 
